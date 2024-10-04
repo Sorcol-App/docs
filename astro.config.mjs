@@ -3,6 +3,11 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      external: [/^node:.*/],
+    },
+  },
   integrations: [
     starlight({
       favicon: "./src/assets/hand-base.png",
