@@ -5,7 +5,7 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: [/^node:.*/],
+      external: "/opt/build/repo/src/assets/hand-student.png",
     },
   },
   integrations: [
