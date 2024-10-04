@@ -9,7 +9,7 @@ export default defineConfig({
       defaultLocale: "es",
       title: "Sorcol's doc",
       logo: {
-        src: "./src/assets/hand-student.webp",
+        src: "./src/assets/hand-student.png",
         alt: "Sorcol's brand",
         width: 200,
         height: 200,
