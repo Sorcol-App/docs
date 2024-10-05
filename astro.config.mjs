@@ -1,18 +1,19 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
+  adapter: netlify(),
+  site: "https://wearesorcol.com",
   integrations: [
     starlight({
       favicon: "./src/assets/hand-base.png",
       defaultLocale: "es",
       title: "Sorcol's doc",
       logo: {
-        src: "./src/assets/hand-student.png",
+        src: "./src/assets/hand-base.png",
         alt: "Sorcol's brand",
-        width: 200,
-        height: 200,
       },
       social: {
         github: "https://github.com/Sorcol-App/web",
