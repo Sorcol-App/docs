@@ -3,6 +3,13 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  vite: {
+    resolve: {
+      alias: {
+        "@assets": "/src/assets",
+      },
+    },
+  },
   site: "https://wearesorcol.com",
   integrations: [
     starlight({
@@ -52,19 +59,4 @@ export default defineConfig({
       ],
     }),
   ],
-  vite: {
-    resolve: {
-      alias: {
-        "@assets": "/src/assets",
-      },
-    },
-    build: {
-      assetsInlineLimit: 0,
-      rollupOptions: {
-        output: {
-          assetFileNames: "assets/[name][extname]",
-        },
-      },
-    },
-  },
 });
