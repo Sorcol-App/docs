@@ -6,11 +6,11 @@ export default defineConfig({
   site: "https://wearesorcol.com",
   integrations: [
     starlight({
-      favicon: "/public/hand-base.png",
+      favicon: "./src/assets/hand-base.png",
       defaultLocale: "es",
       title: "Documentación de Sorcol",
       logo: {
-        src: "/public/hand-base.png",
+        src: "./src/assets/hand-base.png",
         alt: "Sorcol's brand",
       },
       social: {
