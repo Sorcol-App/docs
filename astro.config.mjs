@@ -15,7 +15,7 @@ export default defineConfig({
     starlight({
       favicon: "./src/assets/hand-base.png",
       defaultLocale: "es",
-      title: "Sorcol's doc",
+      title: "Documentación de Sorcol",
       logo: {
         src: "./src/assets/hand-base.png",
         alt: "Sorcol's brand",
