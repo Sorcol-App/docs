@@ -21,6 +21,14 @@ export default defineConfig({
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
+				{
+					label: 'Pruebas',
+					autogenerate: { directory: 'pruebas' },
+				},
+				{
+					label: 'Flujo de trabajo',
+					autogenerate: { directory: 'flujoDeTrabajo' },
+				},
 			],
 		}),
 	],
