@@ -49,6 +49,10 @@ export default defineConfig({
           slug: "local/entorno",
         },
         { label: "Sorcol Platform", link: "https://wearesorcol.com" },
+        {
+          label: "Flujo de trabajo",
+          autogenerate:{directory: "flujoDeTrabajo" },
+        }
       ],
     }),
   ],
