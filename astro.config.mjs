@@ -49,6 +49,10 @@ export default defineConfig({
           slug: "local/entorno",
         },
         { label: "Sorcol Platform", link: "https://wearesorcol.com" },
+		{
+			label: 'Planeación MER',
+			autogenerate: { directory: 'planeacionMer' },
+		},
       ],
     }),
   ],
