@@ -1,0 +1,1 @@
+//Layout específico para las páginas de autenticación (login/register)

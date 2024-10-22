@@ -1,0 +1,1 @@
+//Funciones comunes para realizar llamadas a APIs
