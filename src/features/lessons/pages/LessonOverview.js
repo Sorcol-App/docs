@@ -1,0 +1,1 @@
+//Vista general de todas las lecciones con Tailwind

@@ -1,0 +1,1 @@
+//Componente raíz de la aplicación, define la estructura general de la app

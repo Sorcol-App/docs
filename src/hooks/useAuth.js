@@ -1,0 +1,1 @@
+//Hook para manejar la lógica de autenticación

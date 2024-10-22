@@ -1,0 +1,1 @@
+//Layout principal que contiene el header, footer y demás
