@@ -28,7 +28,7 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             { label: "Onboarding", slug: "bienvenida/onboarding" },
-            {label: "Tarea Isa", slug: "bienvenida/tarea-isa"},
+            {label: "Tarea Isa", slug: "bienvenida/tareai"},
           ],
         },
         {
